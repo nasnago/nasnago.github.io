@@ -1,0 +1,73 @@
+body{
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	font-family: 'Courier New', serif;
+}
+.nav{
+	background-image: url(2.jpg);
+	color: black;
+	list-style: none;
+	text-align: left;
+	padding: 20px 0 20px 0;
+	
+}
+.nav > li{
+	display: inline-block;
+	padding: 0 25px 0 25px; 
+}
+.nav > li > a{
+	text-decoration: none;
+	color: black;
+}
+.nav > li > a:hover{
+	color: white;
+}
+.bio{
+	padding: 50px;
+	margin-right: 80px;
+	margin-top: 30px;
+	
+	background-color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	position: relative;
+	opacity: 0.8;
+
+}
+footer{
+	background-color: lightpink;
+	margin-top: 580px;
+	height: 100px;
+}
+.footer{
+	font-size: 20px;
+	text-align: center;
+}
+.insta{
+	width: 45px;
+	height: 45px;
+	padding-right: 20px;
+}
+.facebook{
+	width: 45px;
+	height: 45px;
+	padding-right: 20px;
+}
+.vk{
+	width: 45px;
+	height: 45px;
+	padding-right: 20px;
+}
+.icons{
+	display: inline-block; 
+	margin-left: 540px;
+}
+.email{
+	width: 45px;
+	height: 45px;
+}
+.who{
+	text-align: center;
+}
